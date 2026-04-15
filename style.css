@@ -1,0 +1,94 @@
+@import url("mobile-style.css") (max-width: 767px);
+@import url("desktop-style.css") (min-width: 1024px);
+
+:root {
+  --size-10: 0.625rem;
+  --size-11: 0.6875rem;
+  --size-12: 0.75rem;
+  --size-13: 0.8125rem;
+  --size-14: 0.875rem;
+  --size-15: 0.9375rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+  --size-22: 1.375rem;
+  --size-24: 1.5rem;
+  --size-28: 1.75rem;
+  --size-32: 2rem;
+  --size-36: 2.25rem;
+  --size-40: 2.5rem;
+  --size-48: 3rem;
+  --size-56: 3.5rem;
+  /*  Blue   */
+  --light-blue: #dde7fc;
+  --strong-blue: #165dfc;
+  /*  green   */
+  --light-green: #dbf3e2;
+  --strong-green: #00a63d;
+  /*  purple   */
+  --light-purple: #f0dffc;
+  --strong-purple: #990ffa;
+  /*  Orange   */
+  --light-orange: #fde5d5;
+  --strong-orange: #f64900;
+  /*yrllow*/
+  --light-yellow: #fff9c2;
+  --strong-yellow: #d08800;
+  /*red*/
+  --light-red: #ffe2e2;
+  --strong-red: #e7000b;
+}
+
+#blue {
+  background-color: var(--light-blue);
+  color: var(--strong-blue);
+}
+#green {
+  background-color: var(--light-green);
+  color: var(--strong-green);
+}
+#purple {
+  background-color: var(--light-purple);
+  color: var(--strong-purple);
+}
+#orange {
+  background-color: var(--light-orange);
+  color: var(--strong-orange);
+}
+#yellow {
+  background-color: #fff9c2;
+  color: #d08800;
+}
+#red {
+  background-color: var(--light-red);
+  color: var(--strong-red);
+}
+#baby-blue {
+  background-color: #cefafe;
+  color: #0092b9;
+}
+
+#solid-green {
+  color: var(--strong-green);
+}
+#solid-red {
+  color: #fb2c36;
+}
+#solid-green {
+  color: var(--strong-green);
+}
+.badge {
+  padding: 0.3rem 0.5rem;
+  border-radius: var(--size-24);
+  width: fit-content;
+  font-size: var(--size-12);
+  line-height: var(--size-16);
+  font-weight: 600;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
